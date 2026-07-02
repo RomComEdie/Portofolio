@@ -1,2 +1,2 @@
 # Portofolio
-portofolio by @riski masih tahap pembuatan
+the portofolio is still under development

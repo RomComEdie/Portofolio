@@ -537,9 +537,13 @@ section {
   transform: translate(3px, -3px);
 }
 
-@media (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 900px) {
   .projeck-list {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home .content p {
+    display: none;
   }
 }
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Risky.com</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -34,35 +34,35 @@
       <section class="home">
         <video
           class="videoSlide active"
-          src="/assets/Train_night.mp4"
+          src="assets/Train_night.mp4"
           autoplay
           muted
           loop
         ></video>
         <video
           class="videoSlide"
-          src="/assets/Train.mp4"
+          src="assets/Train.mp4"
           autoplay
           muted
           loop
         ></video>
         <video
           class="videoSlide"
-          src="/assets/japan.mp4"
+          src="assets/japan.mp4"
           autoplay
           muted
           loop
         ></video>
         <video
           class="videoSlide"
-          src="/assets/Green.mp4"
+          src="assets/Green.mp4"
           autoplay
           muted
           loop
         ></video>
         <video
           class="videoSlide"
-          src="/assets/w.mp4"
+          src="assets/w.mp4"
           autoplay
           muted
           loop
@@ -127,24 +127,23 @@
           <div class="nav-btn" data-index="4"></div>
         </div>
       </section>
-      <div class="hero" id="hero">
+      <div class="hero" id="hero" class="bg-white py-10">
+        >
         <div class="projeck">
           <h1>list <span>projeck</span></h1>
           <p>di bawah ini adalah beberapa projeck yang sudah saya bikin</p>
         </div>
         <div class="background">
-          <video src="/assets/Green.mp4" autoplay muted loop></video>
+          <video src="assets/Green.mp4" autoplay muted loop></video>
         </div>
         <div class="projeck-list">
           <div class="projeck-card">
             <div class="projeck-thumb">
-              <img src="/assets/mc.png" alt="Nama Projeck 1" />
+              <img src="assets/mc.png" alt="Nama Projeck 1" />
             </div>
             <div class="projeck-info">
               <h3>Login Page</h3>
-              <p>
-                ini project pertama saya dalam hal website
-              </p>
+              <p>ini project pertama saya dalam hal website</p>
               <a href="#" target="_blank"
                 >Lihat projeck <i class="ti ti-arrow-up-right"></i
               ></a>
@@ -153,13 +152,11 @@
 
           <div class="projeck-card">
             <div class="projeck-thumb">
-              <img src="/assets/company.png" alt="" />
+              <img src="assets/company.png" alt="" />
             </div>
             <div class="projeck-info">
               <h3>PRoject company</h3>
-              <p>
-                website pilih rumah,interaktif dan inovasi
-              </p>
+              <p>website pilih rumah,interaktif dan inovasi</p>
               <a href="#" target="_blank"
                 >Lihat projeck <i class="ti ti-arrow-up-right"></i
               ></a>
@@ -168,14 +165,12 @@
 
           <div class="projeck-card">
             <div class="projeck-thumb">
-              <img src="/assets/coffe.png" alt="coffe" />
+              <img src="assets/coffe.png" alt="coffe" />
             </div>
             <div class="projeck-info">
               <h3>Coffe website</h3>
-              <p>
-                saya membuat website dengan arahan dari youtube
-              </p>
-              <a href="#" target="_blank"
+              <p>saya membuat website dengan arahan dari youtube</p>
+              <a href="project/project3/" target="_blank"
                 >Lihat projeck <i class="ti ti-arrow-up-right"></i
               ></a>
             </div>
@@ -183,65 +178,75 @@
         </div>
       </div>
 
-   
       <!-- Footer -->
-       
-<footer class="site-footer">
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="#" class="por">Risky <span>Portofolio.</span></a>
-      <p>
-        Siswa SMK Bhinus yang sedang membangun karier sebagai fullstack
-        developer. Fokus pada pengalaman web yang modern dan interaktif.
-      </p>
-      <div class="footer-social">
-        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://github.com/RomComEdie" target="_blank" aria-label="Github">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
+
+      <footer class="site-footer">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="por">Risky <span>Portofolio.</span></a>
+            <p>
+              Siswa SMK Bhinus yang sedang membangun karier sebagai fullstack
+              developer. Fokus pada pengalaman web yang modern dan interaktif.
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://github.com/RomComEdie"
+                target="_blank"
+                aria-label="Github"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Navigasi</h4>
+            <a href="#" data-slide="0">Home</a>
+            <a href="#" data-slide="1">Tentang saya</a>
+            <a href="#" data-slide="2">Impian</a>
+            <a href="#" data-slide="3">Sekolah</a>
+            <a href="#" data-slide="4">Visi</a>
+          </div>
+
+          <div class="footer-links">
+            <h4>Projeck</h4>
+            <a href="#hero">Login Page</a>
+            <a href="#hero">Coffe Website</a>
+            <a href="#hero">kalkulator</a>
+            <a href="#hero">Lihat semua projeck</a>
+          </div>
+
+          <div class="footer-contact">
+            <h4>Hubungi saya</h4>
+            <form class="footer-form" id="footerForm">
+              <input type="email" placeholder="Email kamu" required />
+              <button type="submit">
+                <i class="ti ti-send"></i>
+              </button>
+            </form>
+            <small class="form-msg" id="formMsg"></small>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; <span id="year"></span> Risky. Website developer</p>
+          <button
+            id="backToTop"
+            class="back-to-top"
+            aria-label="Kembali ke atas"
+          >
+            <i class="ti ti-arrow-up"></i>
+          </button>
+        </div>
+      </footer>
     </div>
 
-    <div class="footer-links">
-      <h4>Navigasi</h4>
-      <a href="#" data-slide="0">Home</a>
-      <a href="#" data-slide="1">Tentang saya</a>
-      <a href="#" data-slide="2">Impian</a>
-      <a href="#" data-slide="3">Sekolah</a>
-      <a href="#" data-slide="4">Visi</a>
-    </div>
-
-    <div class="footer-links">
-      <h4>Projeck</h4>
-      <a href="#hero">Login Page</a>
-      <a href="#hero">Coffe Website</a>
-      <a href="#hero">kalkulator</a>
-      <a href="#hero">Lihat semua projeck</a>
-    </div>
-
-    <div class="footer-contact">
-      <h4>Hubungi saya</h4>
-      <form class="footer-form" id="footerForm">
-        <input type="email" placeholder="Email kamu" required />
-        <button type="submit">
-          <i class="ti ti-send"></i>
-        </button>
-      </form>
-      <small class="form-msg" id="formMsg"></small>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <p>&copy; <span id="year"></span> Risky. Website developer</p>
-    <button id="backToTop" class="back-to-top" aria-label="Kembali ke atas">
-      <i class="ti ti-arrow-up"></i>
-    </button>
-  </div>
-</footer>
-      
-    </div>
-
-    <script src="/js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

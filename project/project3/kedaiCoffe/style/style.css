@@ -38,8 +38,6 @@ body {
   z-index: 9999;
 }
 
-
-
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
@@ -66,8 +64,8 @@ body {
   color: var(--primary);
 }
 
-.menuResponsive{
- display: flex;  
+.menuResponsive {
+  display: flex;
 }
 
 .navbar .navbar-nav a::after {
@@ -102,7 +100,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url(/coffe.png);
+  background-image: url(/project/project3/kedaiCoffe/coffe.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

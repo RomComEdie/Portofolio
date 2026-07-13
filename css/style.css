@@ -290,7 +290,6 @@ section {
 
 .projeck h1 {
   font-size: 70px;
- 
 }
 
 .projeck h1 span {
@@ -315,7 +314,7 @@ section {
 
 .projeck-card {
   background: rgba(0, 0, 0, 0.5);
-  
+
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -378,7 +377,7 @@ section {
   right: -80px;
   width: 260px;
   height: 260px;
-  background: radial-gradient(circle, rgba(0,255,170,0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(0, 255, 170, 0.15), transparent 70%);
   pointer-events: none;
 }
 
@@ -386,7 +385,7 @@ section {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1.3fr;
   gap: 40px;
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 40px;
 }
 
@@ -396,7 +395,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
-.footer-brand .por span { color: #00ffaa; }
+.footer-brand .por span {
+  color: #00ffaa;
+}
 
 .footer-brand p {
   margin-top: 12px;
@@ -417,7 +418,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 50%;
   color: #fff;
   transition: all 0.3s ease;
@@ -441,7 +442,9 @@ section {
   text-decoration: none;
   font-size: 0.9rem;
   margin-bottom: 10px;
-  transition: color 0.25s ease, padding-left 0.25s ease;
+  transition:
+    color 0.25s ease,
+    padding-left 0.25s ease;
 }
 .footer-links a:hover {
   color: #00ffaa;
@@ -450,7 +453,7 @@ section {
 
 .footer-form {
   display: flex;
-  border: 1px solid rgba(255,255,255,0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 30px;
   overflow: hidden;
 }
@@ -472,7 +475,9 @@ section {
   font-size: 1rem;
   transition: background 0.25s ease;
 }
-.footer-form button:hover { background: #00e69c; }
+.footer-form button:hover {
+  background: #00e69c;
+}
 
 .form-msg {
   display: block;
@@ -492,7 +497,7 @@ section {
 }
 
 .back-to-top {
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   border: none;
   color: #fff;
   width: 40px;
@@ -511,12 +516,10 @@ section {
   .footer-top {
     grid-template-columns: 1fr 1fr;
   }
-  .footer-brand { grid-column: span 2; 
+  .footer-brand {
+    grid-column: span 2;
   }
-  
 }
-
-
 
 .projeck-info a {
   display: inline-flex;
@@ -553,6 +556,10 @@ section {
 @media (max-width: 600px) {
   .projeck-list {
     grid-template-columns: 1fr;
+  }
+  .content p {
+    margin-top: 12px;
+    width: 80%;
   }
 }
 

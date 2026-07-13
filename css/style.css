@@ -314,7 +314,8 @@ section {
 }
 
 .projeck-card {
-  background: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
@@ -353,7 +354,7 @@ section {
 
 .projeck-info p {
   font-size: 0.9em;
-  color: #666;
+  color: #ffffff;
   line-height: 1.6;
   margin-bottom: 18px;
 }
